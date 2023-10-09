@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+/* Navigation Section CSS */
+header{
+    background-color: #212529 !important;
+    border-bottom: 1px solid white;
+}
+.navbar-parent {
+  background-color: #212529;
+  color: white !important;
+}
+.navbar-parent .links {
+  text-decoration: none;
+  color: white;
+  padding-right: 40px;
+}
+
+/* Home Page CSS */
+main{
+    background-color: #212529;
+    color: white;
+}
+
+main .img{
+    width: 100%;
+}
+.signup{
+  background-color: orange;
+}
+
+/* SignUp section  */
+.modify-btn{
+  white-space: nowrap;
+}
+/* cards section */
+.cards-container{
+  background-color: white;
+  color: #212529;
+  padding: 50px 0px;
+}
+
+/* Fundametal Section */
+#learn{
+  background-color: white;
+  color: #212529;
+  padding: 40px 0px;
+}
+
+#learn .img{
+  width: 100%;
+  height: 500px;
+}
+
+
+/* Questions Page CSS */
+#questions{
+  padding: 100px 0px;
+}
+#questions .heading{
+  padding-top: 60px;
+  font-size: 3vw;
+}
+
+
+/* Instructions Page CSS */
+#instructors{
+  padding: 150px 0px;
+  background: #000;
+}
+#instructors .md-card{
+  box-shadow:5px 5px 30px purple, -5px -5px 30px green ;
+}
+#instructors .md-card1{
+  box-shadow:5px 5px 30px rgb(44, 255, 16), -5px -5px 30px rgb(224, 13, 186) ;
+}
+#instructors .md-card2{
+  box-shadow:5px 5px 30px rgb(222, 215, 222), -5px -5px 30px rgb(211, 140, 18) ;
+}
+#instructors .md-card3{
+  box-shadow:5px 5px 30px rgb(204, 65, 204), -5px -5px 30px rgb(54, 7, 206) ;
+}
+/* Footer Section css */
+
+footer{
+  background-color: #212529;
+  color: white;
+  position:relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+footer h5{
+    font-size: 1.4vw;
+}
+@media (max-width:600px){
+    footer h5{
+        font-size: 2vh;
+    }
+
+
+}

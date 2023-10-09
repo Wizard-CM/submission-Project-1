@@ -30,7 +30,7 @@ function NavBar() {
             className="collapse navbar-collapse justify-content-end"
             id="navbarNavDropdown"
           >
-            <ul className="navbar-nav text-white">
+            <ul className="navbar-nav text-white text-center text-lg-start">
               <li className="nav-item">
                 <Link className="links" aria-current="page" href="/">
                   What you'll Learn
